@@ -1,56 +1,222 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    width: 1500px;
-    height: 658px;
-    
-    margin: 0 auto;
-    background-image: url(/img/Promotion\ Imagebgimg.png);
-    
-}
-h1{
-   font-family: Poppins;
-   font-size: 64px;
-   font-weight: 700;
-   line-height: 96px;
-   letter-spacing: 0.5px;
-   padding-left: 131px;
-   color: blanchedalmond;
-   
+header {
+  width: 1500px;
+  height: 658px;
 
+  margin: 0 auto;
+  background-image: url(/img/Promotion\ Imagebgimg.png);
 }
-nav{
-    width: 100%;
-    height: 10%;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: whitesmoke;
+h1 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0.5px;
+  padding-left: 131px;
+  color: blanchedalmond;
 }
-.navbar{
-    align-items: center;
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    
+nav {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
-.items{
-    width: 100%;
-    height: 10%;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: whitesmoke;
+.items {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
 }
-ul{
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+main {
+  width: 1500px;
+  height: 2000px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.container {
+  width: 1200px;
+  height: 355px;
+ 
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  top: -100px;
+  gap: 10px;
+  background-color:white;
+}
+.boxes {
+  display: flex;
+  width: 1200px;
+  height: 100%;
+ 
+  justify-content: center;
+  
+}
+
+.box1 {
+  width: 420px;
+  height: 100%;
+
+ 
+  background-image: url(/img/image\ Productbleck.png);
+  background-size: cover;
+}
+.box2 {
+  width: 420px;
+  height: 100%;
+ 
+  background-image: url(/img/image\ ProductynikeAir.png);
+  background-size: contain;
+}
+.box3 {
+  width: 420px;
+  height: 100%;
+ 
+  background-image: url(/img/image\ ProductrnikeAir.png);
+  background-size: contain;
+  
+}
+.text{
+  color: rgb(15, 15, 43);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+p{
+  color: blue;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.size{
+  position: relative;
+  bottom: -230px;
+  left: 100px;
+  color: rgb(48, 48, 177);
+}
+span{
+  color: #A6ACBF;
+  
+}
+.best_seller{
+  text-align: center;
+  justify-content: center;
+  
+}
+.best_sell{
+  color: black;
+  font-family: sans-serif;
+}
+.seller_items_blue{
+  color: rgb(99, 99, 224);
+}
+.seller_box{
+  width: 1000px;
+  height: 50px;
+  font-size: 29px;
+  gap: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  
+}
+.product{
+  width: 1315px;
+  height: 1010px;
+ 
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_sell{
+  width: 305px;
+  height: 345px;
+  
+  text-align: center;
+}
+.icon img{
+  width: 12px;
+}
+.broun{
+  width: 12px;
+  color: #C1C8CE;
+}
+.text_info{
+  display: flex;
+  padding-left: 30px;
+}
+.red{
+  color: red;
+}
+.underline{
+  color: blue;
+  text-decoration: underline;
+  font-size: 22px;
+  font-family: serif;
+  margin: 0 auto;
+}
+.info{
+  width: 1092px;
+  height: 170px;
+  
+  display:flex;
+  margin: 0 auto;
+  justify-content:space-around ;
+  gap: 60px;
+  align-items: center;
+
+
+}
+.info_box{
+  width: 193px;
+  height: 161px;
+  text-align: center;
+  align-items: center;
+}
+.info_text{
+  color: black;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.search{
+  width: 634px;
+  height: 65px;
+  border:4px solid rgb(40, 40, 239) ;
+  margin: 0 auto;
+  
+
+}
+.son{
+  height:100%;
+  width: 25%;
+  border: 1px solid rgb(40, 40, 255);
+  justify-content: right;
+  text-align: center;
+  padding-top: 14px;
+  color: white;
+  background-color: blue;
+  font-size: 23px;
+
+
 }
