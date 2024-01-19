@@ -53,7 +53,7 @@ main {
   width: 1500px;
   height: 2000px;
   margin: 0 auto;
-  border: 1px solid;
+  
 }
 .container {
   width: 1200px;
@@ -219,4 +219,33 @@ span{
   font-size: 23px;
 
 
+}
+footer{
+  width: 1500px;
+  height: 680px;
+  margin: 0 auto;
+  
+  background:#BCDDFE;
+  
+}
+.footer_con{
+  display: flex;
+}
+.contents{
+ display: flex;
+ justify-content: space-around;
+}
+.follow{
+  font-size: 40px;
+  font-family: serif;
+}
+.btn p{
+  color: #6F8194;
+  font-weight: 400;
+
+}
+.lineunder{
+ padding-top: 330px;
+
+ padding-left: 50px;  
 }
